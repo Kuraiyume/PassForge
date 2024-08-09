@@ -22,6 +22,44 @@ pip3 install passforge
 ## Available Parameters
 
 ```
+                           ____
+    ____  ____ ___________/ __/___  _________ ____
+   / __ \/ __ `/ ___/ ___/ /_/ __ \/ ___/ __ `/ _ \
+  / /_/ / /_/ (__  |__  ) __/ /_/ / /  / /_/ /  __/
+ / .___/\__,_/____/____/_/  \____/_/   \__, /\___/
+/_/                                   /____/v0.1
+                                    veilwr4ith
+
+usage: PassForge [-h] [-n NUMBERS] [-l LOWERCASE] [-u UPPERCASE] [-s SPECIAL_CHARS] [-a AMOUNT] [-o OUTPUT_FILE] [--output-format {txt,json}] [--exclude-chars EXCLUDE_CHARS]
+                 [--prefix PREFIX] [--suffix SUFFIX] [--total-length TOTAL_LENGTH] [--seed SEED] [--custom CUSTOM]
+
+Advanced Password Generator that generates customizable passwords with sophisticated options.
+
+options:
+  -h, --help            show this help message and exit
+  -n NUMBERS, --numbers NUMBERS
+                        Number of digits in the password
+  -l LOWERCASE, --lowercase LOWERCASE
+                        Number of lowercase characters in the password
+  -u UPPERCASE, --uppercase UPPERCASE
+                        Number of uppercase characters in the password
+  -s SPECIAL_CHARS, --special-chars SPECIAL_CHARS
+                        Number of special characters in the password
+  -a AMOUNT, --amount AMOUNT
+                        Number of passwords to generate
+  -o OUTPUT_FILE, --output-file OUTPUT_FILE
+                        File to write the generated passwords to
+  --output-format {txt,json}
+                        Format of the output file (txt or json)
+  --exclude-chars EXCLUDE_CHARS
+                        Characters to exclude from the password
+  --prefix PREFIX       Prefix to add to each password
+  --suffix SUFFIX       Suffix to add to each password
+  --total-length TOTAL_LENGTH
+                        Total length of the password (including prefix and suffix) If 0, use specified counts
+  --seed SEED           Seed for randomization to allow reproducible results
+  --custom CUSTOM       Custom name for the password with leet speak conversion
+```
 ## Usage
 
 1. Generate a Password with Specific Counts
