@@ -27,7 +27,7 @@ pip3 install passforge
    / __ \/ __ `/ ___/ ___/ /_/ __ \/ ___/ __ `/ _ \
   / /_/ / /_/ (__  |__  ) __/ /_/ / /  / /_/ /  __/
  / .___/\__,_/____/____/_/  \____/_/   \__, /\___/
-/_/                                   /____/v0.1
+/_/                                   /____/v0.4
                                     veilwr4ith
 
 usage: PassForge [-h] [-n NUMBERS] [-l LOWERCASE] [-u UPPERCASE] [-s SPECIAL_CHARS] [-a AMOUNT] [-o OUTPUT_FILE] [--output-format {txt,json}] [--exclude-chars EXCLUDE_CHARS]
