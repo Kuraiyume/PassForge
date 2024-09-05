@@ -13,7 +13,7 @@ banner = r"""
   / /_/ / /_/ (__  |__  ) __/ /_/ / /  / /_/ /  __/
  / .___/\__,_/____/____/_/  \____/_/   \__, /\___/
 /_/                                   /____/v0.4
-                                      Zephyr
+                                      Kuraiyume
 """
 
 def validate_positive_int(value):
