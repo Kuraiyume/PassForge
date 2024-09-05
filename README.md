@@ -28,7 +28,7 @@ pip3 install passforge
   / /_/ / /_/ (__  |__  ) __/ /_/ / /  / /_/ /  __/
  / .___/\__,_/____/____/_/  \____/_/   \__, /\___/
 /_/                                   /____/v0.4
-                                    veilwr4ith
+                                    Kuraiyume
 
 usage: PassForge [-h] [-n NUMBERS] [-l LOWERCASE] [-u UPPERCASE] [-s SPECIAL_CHARS] [-a AMOUNT] [-o OUTPUT_FILE] [--output-format {txt,json}] [--exclude-chars EXCLUDE_CHARS]
                  [--prefix PREFIX] [--suffix SUFFIX] [--total-length TOTAL_LENGTH] [--seed SEED] [--custom CUSTOM]
